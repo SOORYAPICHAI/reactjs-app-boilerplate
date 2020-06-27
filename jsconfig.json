@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+        "baseUrl": "src",
+        "paths": {
+            "app": [ "src", "src/*" ],
+            "assets":[ "src/assets/*", "src/assets" ],
+            "components": [ "src/components/*", "src/components" ],
+            "contexts":[ "src/contexts/*", "src/contexts" ],
+            "graphql": [ "src/graphql/*", "src/graphql" ],
+            "hooks": [ "src/hooks/*", "src/hooks" ],
+            "mappers": [ "src/mappers/*", "src/mappers" ],
+            "routers": [ "src/routers/*", "src/routers" ],
+            "screens": [ "src/screens/*", "src/screens" ],
+            "theme": [ "src/theme/*", "src/theme" ],
+            "utils": [ "src/utils/*", "src/utils" ]
+            
+        }
+    },
+    "exclude": [
+        "node_modules",
+        "**/node_modules/*"
+    ]
+}
