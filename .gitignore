@@ -15,12 +15,6 @@
 .vscode
 
 
-
-# Ignore everything in this directory
-*
-# Except this file
-!/assets
-
 # misc
 .DS_Store
 .env.local
